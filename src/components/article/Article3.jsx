@@ -13,7 +13,7 @@ const Article3 = ({ imgUrl, date, text }) => (
       </div>
       {/* <p>Read Full Article</p> */}
       <Button color="primary" variant="contained" href="https://github.com/gayanga-4534/easy_car_rental.git" >
-        VIEW3
+        VIEW
       </Button>
     </div>
   </div>

@@ -4,7 +4,9 @@ import ai from '../../assets/ai.png';
 import gayanga from '../../assets/gayanga.jpg';
 import gayanga2 from '../../assets/gayanga2.png';
 import progaming from '../../assets/progaming.jpg';
+import progaming1 from '../../assets/progaming1.png';
 import './header.css';
+import {Img} from 'react-image';
 
 const Header = () => (
   <div className="gpt3__header section__padding" id="home">
@@ -24,7 +26,7 @@ const Header = () => (
     </div>
 
     <div className="gpt3__header-image">
-      <img src={progaming} />
+    <Img src="https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?size=626&ext=jpg&ga=GA1.1.1876411061.1641381432" />
     </div>
   </div>
 );

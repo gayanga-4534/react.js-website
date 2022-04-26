@@ -15,6 +15,9 @@
 }
 
 .gpt3__features-container__feature-title h1 {
+
+width: 11rem;
+
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 18px;
@@ -59,4 +62,17 @@
     .gpt3__features-container__feature {
         margin: 1rem 0;
     }
+    
+
+
+
+    .gpt3__features-container__feature-title h1 {
+
+        width: 100px;
+        
+    
+        }
+
+
+
 }
